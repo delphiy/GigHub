@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201810091046133_OversideConventionsForGigsAndGenres.Designer.cs">
       <DependentUpon>201810091046133_OversideConventionsForGigsAndGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810091054187_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201810091054187_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201810091054187_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -307,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810091046133_OversideConventionsForGigsAndGenres.resx">
       <DependentUpon>201810091046133_OversideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810091054187_PopulateGenresTable.resx">
+      <DependentUpon>201810091054187_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
